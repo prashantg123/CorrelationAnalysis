@@ -1,0 +1,20 @@
+Warning in file(file, "rt") :
+  cannot open file 'D:/SHINYPROJECT/MADistanceShiny/FinalPortfolioSeries.csv': No such file or directory
+Warning: Error in file: cannot open the connection
+Stack trace (innermost first):
+    81: file
+    80: read.table
+    79: read.csv
+    78: func [D:\SHINYPROJECT\CorrelationAnalysis/server.R#351]
+    77: origRenderFunc
+    76: output$PricePlot
+     1: runApp
+Warning: Error in as.data.frame: could not find function "getFreshData"
+Stack trace (innermost first):
+    100: as.data.frame
+     99: renderPlot [D:\SHINYPROJECT\CorrelationAnalysis/server.R#400]
+     89: <reactive:plotObj>
+     78: plotObj
+     77: origRenderFunc
+     76: output$CorrPlot
+      1: runApp
